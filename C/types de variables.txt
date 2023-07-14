@@ -1,0 +1,94 @@
+
+Certainly! Here are some commonly used variable types in programming languages:
+
+1. `int`: kaymth2el les nombres Entier  b7al  −3 −2 −1 0 1 2 3. (represents whole numbers such as −3 −2 −1 0 1 2 3.)
+
+2. `char`: kaymt2el l'ḥurūf A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z wela  '@'.fi mo3dam les Programming languages  kaykono had l-ḥurūf bayn single quotes '' .(Represents single characters such as 'a', 'B', or '@'. In most programming languages, characters are enclosed in single quotes ''.)
+
+3. `float`:kaymt2el les nombres lif fihom fasilla b7al 3.14 wela -0.5. l-a'dad l-3shiya lad'ha nuqat 3shiya w3adatan ma tkun di9qa wehda. (represents floating-point numbers  such as 3.14 or -0.5. Floats have decimal points and are typically represented with single-precision. )
+
+4. `double`:kaymt2el a'dad 3shiya 3anda di9qa m'dawebla , lit9q2ed stockée qimaʾ 3shiya akbar bidqa min float. ʿala sabīli l-mithal, 3.1415926535. (Represents double-precision floating-point numbers, which can hold larger decimal values with higher precision than floats. For example, 3.1415926535. )
+
+5. `bool`: hhhhhh kaymt2el al-qiyama al-bulya hhh, we had al-qiyama  takun ima sahiḥa (true) aw 5ataeʾa (false). b7al les exames d longli dik text kay(bool) 3la les question lit7tah ima true wela false :) ( Represents Boolean values, which can be either `true` or `false`. In many programming languages, true and false are keywords)
+
+6. `string`: kaymt2el tasalsulan min l-aḥruf b7al "salam" wela "cc". wʿadatan ma tkun l-silasil muḥāṭa b2e "" (Represents a sequence of characters, such as "salam" or "cc". Strings are usually enclosed in double quotes " ".)
+
+7. `array`: kaymt2el bzzaf dyalʿl-ʿanāṣir min nafs Marke.ʾ li-stockée fi mawāqīʿ dhākira muttāliya. yamkin l-Matrix stockée qima moutaliyaʿ3addidya wee n9do nweslo liha b index. (epresents a collection of elements of the same type stored in contiguous memory locations. Arrays can store multiple values accessed by an index. )
+
+8. `struct`: kaymt2el Marke d'data Spezifisch min 9ibal l-userʿ les variables dhat al-ṣilṭa maʿan. yasmah bi-taʿrīf hikl bayānāt mukhtaṣṣa bi-ḥawal mukhtalifa al-anwāʿ(Represents a user-defined data type that groups related variables together. It allows defining a custom data structure with different types of fields. )
+
+9. `pointer`: kaymthel ʿanawat l'memory likatchir lmota5ayir ākhar. yastakhdam al-muʾashirāt liʾidārat al-dhākira waʾidāʾ al-takhsīṣ al-dīnamīki lil-dhākira waʾinshāʾ hiyākil al-bayānāt methl al-qawāʾil al-mutasalsila. (Represents a memory address that points to another variable. Pointers are used to manage memory, perform dynamic memory allocation, and create data structures like linked lists.)
+
+10. `enum`: kaymthel mujmu3'3 d al-qiyam al-musammāt. kaywefar multi ṭarīqa pour -taʿrīf thwābit rumziya bi-asmaʾ akthar wud7an. (Represents a set of named values. Enums provide a way to define symbolic constants with more descriptive names.)
+
+few examples :
+
+hadi dyal int (عدد صحيح):
+
+int age = 25;
+int count = 10;
+---------------
+
+hadi dyal char (حرف):
+
+char grade = 'A';
+char symbol = '@';
+-----------------------------------
+
+hadi dyal float (عدد عشري):
+
+float price = 12.99;
+float temperature = 28.5;
+----------------------------------------
+
+hadi dyal double (عدد عشري مزدوج):
+
+double pi = 3.1415926535;
+double distance = 1500.75;
+--------------------------
+
+hadi dyal bool (بوليان):
+
+bool isTrue = true;
+bool isFalse = false;
+---------------------
+
+hadi dyal string (سطر نصي):
+
+string name = "واحسسسان";
+string message = "مرحبا بكم!";
+---------------------------
+
+hadi dyal array (جدول):
+
+int numbers[] = {1, 2, 3, 4, 5};
+char characters[] = {'a', 'b', 'c', 'd'};
+-----------------------------------------
+
+hadi dyal struct (هيكل):
+
+struct person {
+    string name;
+    int age;
+};
+struct person student1;
+student1.name = "أحمد";
+student1.age = 20;
+------------------
+
+hadi dyal pointer (مؤشر):
+
+int *ptr;
+int number = 100;
+ptr = &number;
+--------------
+
+hadi dyal enum (تعداد):
+
+enum season {Spring, Summer, Autumn, Winter};
+enum season currentSeason = Spring;
+-----------------------------------
+
+
+
+
