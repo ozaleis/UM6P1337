@@ -9,17 +9,17 @@ void ft_print_comb2(void)
     {
         for (j = i + 1; j <= 99; j++)
         {
-            int first_digit_1 = i / 10;
-            int second_digit_1 = i % 10;
-            int first_digit_2 = j / 10;
-            int second_digit_2 = j % 10;
+            int a1 = i / 10;
+            int b1 = i % 10;
+            int a2 = j / 10;
+            int b2 = j % 10;
 
             char output[8];
-            output[0] = first_digit_1 + '0';
-            output[1] = second_digit_1 + '0';
+            output[0] = a1 + '0';
+            output[1] = b1 + '0';
             output[2] = ' ';
-            output[3] = first_digit_2 + '0';
-            output[4] = second_digit_2 + '0';
+            output[3] = a2 + '0';
+            output[4] = b2 + '0';
             output[5] = ',';
             output[6] = ' ';
             output[7] = '\0';
