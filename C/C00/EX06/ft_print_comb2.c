@@ -14,17 +14,17 @@ void ft_print_comb2(void)
             int a2 = j / 10;
             int b2 = j % 10;
 
-            char output[8];
-            output[0] = a1 + '0';
-            output[1] = b1 + '0';
-            output[2] = ' ';
-            output[3] = a2 + '0';
-            output[4] = b2 + '0';
-            output[5] = ',';
-            output[6] = ' ';
-            output[7] = '\0';
+            char op[8];
+            op[0] = a1 + '0';
+            op[1] = b1 + '0';
+            op[2] = ' ';
+            op[3] = a2 + '0';
+            op[4] = b2 + '0';
+            op[5] = ',';
+            op[6] = ' ';
+            op[7] = '\0';
 
-            write(1, output, 7);
+            write(1, op, 7);
         }
     }
 }
